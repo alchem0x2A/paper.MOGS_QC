@@ -233,7 +233,7 @@ where $\rho(x)$ is the space charge density at position $x$ in semiconductor; $\
 We assume that the electric potential in the semiconductor layer, $\psi(x)$, satisfies the Poisson-Boltzmann equation:
 \begin{equation}
     \label{eqn:2nd-poisson}
-    \frac{d^2 \psi(x)}{dx^2} = -\frac{e\rho(x)}{\epsilon} = - \frac{e}{\epsilon\subs{S}}[p_0(\text{e}^{-\beta \psi(x)}-1) - n_0(\text{e}^{\beta \psi(x)} -1)]
+    \frac{d^2 \psi(x)}{dx^2} = -\frac{e\rho(x)}{\epsilon\subs{S}} = - \frac{e}{\epsilon\subs{S}}[p_0(\text{e}^{-\beta \psi(x)}-1) - n_0(\text{e}^{\beta \psi(x)} -1)]
 \end{equation}
 where $e$ is the elementary charge, $\beta=e/k\subs{B} T$, $k\subs{B}$ is the Boltzmann constant, $T$ is temperature and $n_0$, $p_0$ are the equilibrium densities of electron and hole in bulk semiconductor, respectively.
 Considering the limit that the Debye length in the semiconductor layer $\lambda_D\approx\sqrt{\dfrac{\epsilon\subs{S} k\subs{B} T}{e^2 N\subs{D}}}$ (where $N\subs{D}$ is the dopant density) is much smaller than $d_S$, the boundary conditions $\psi(0)=\psi_0$, $\psi(\infty)=0$ and $\psi'(\infty)=0$ are used for eq \ref{eqn:2nd-poisson}, where $\psi_0$ is the electric potential at the SG interface.
@@ -417,7 +417,7 @@ capacitance $C\subs{S}$ remains almost constant when charges are filled into its
 valence band (VB) or conduction band (CB) \cite{Davies1997Physics}.
 Conversely, when the doping level of graphene is extremely high, its quantum capacitance $C\subs{G}$ will be less dependent of the charge density after the van Hove singularity is reached \cite{Sarma2011Electronic}. 
 According to eq \ref{eqn:eta_expanded}, $\eta=(1+C\subs{G}/C\subs{S})^{-1}$, due to that $C\subs{G}$ and $C\subs{S}$ are nearly constant, the $\eta$ value becomes independent of either $\sigma\subs{M}$ or Si doping level.
-Moreover since $C\subs{S}$ is essentially larger than $C\subs{G}$ in this case as a result of higher DOS of Si in the VB and CB, it is plausible to have a $\eta$ larger than 0.5.
+Moreover since $C\subs{S}$ is essentially larger than $C\subs{G}$ in this case as a result of higher DOS of Si in the VB or CB, it is plausible to have a $\eta$ larger than 0.5.
 We also study the charge distribution over the SG interface as a function of $\sigma\subs{M}$, which exhibits an intriguing profile as shown in Figure \ref{fig:first principle}c. 
 At both positive and negative $\sigma_{\rm M}$ regimes, the induced charge density cross section of the system $\Delta \rho\subs{tot}$ shows a higher accumulation at the graphene surface than in the Si slab, due to different electronic behaviors of both materials, namely, semimetallic versus semiconducting. 
 A nonlinear pattern is clearly observed throughout the semiconductor slab, 
@@ -470,7 +470,7 @@ The calculated quantum capacitances for the 2D materials considered as a functio
 
 The quantum capacitance of a monolayer 2D semiconductor (\change{TMDs and phosphorene}) behaves like a step function and only increases gradually with $\sigma\subs{2D}$, close to that for an ideal 2D semiconductor \cite{Davies1997Physics}. 
 On the other hand, the quantum capacitance of a 2D semimetal, including graphene, silicene, and germanene, exhibits a quadratic relation with respect to $\sigma\subs{2D}$, because they share the same feature of linear $E-k$ dispersion. 
-More importantly, the quantum capacitance for the 2D semimetals are always less than those for the 2D semiconductors under the same charge density. In other words, although there is no states in the band gap, the DOS above the band edge in a 2D semiconductor is significantly higher compared to that in a semimetal, reflecting the fact that the effect mass of carriers in the 2D semiconductors is much higher than that in the 2D semimetals \cite{Davies1997Physics}. 
+More importantly, the quantum capacitance for the 2D semimetals are always less than those for the 2D semiconductors under the same charge density. In other words, although there is no states in the band gap, the DOS above the band edge in a 2D semiconductor is significantly higher compared to that in a semimetal, reflecting the fact that the effect mass of carriers in the 2D semiconductors is much larger than that in the 2D semimetals \cite{Davies1997Physics}. 
 This concept also explains why the $C\subs{Q}$ for silicene and germanene are similar but higher than that in graphene. Indeed, recent reports have suggested that the Fermi velocities, $v\subs{F}$, in silicene and germanene are only about 60\% of that in graphene \cite{yan2013electron,bechstedt2012infrared}. 
 combining with eq \ref{eqn:eta_expanded}, the observations have led to the conclusion that graphene exhibits the highest transparency to an electric displacement field among all the 2D materials considered here.
 The theoretical framework also allows us to rank the 2D materials according their transparency. For example, when the majority carrier is electron, the following rank is predicted: 
